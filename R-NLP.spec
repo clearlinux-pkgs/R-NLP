@@ -4,7 +4,7 @@
 #
 Name     : R-NLP
 Version  : 0.1.11
-Release  : 5
+Release  : 6
 URL      : https://cran.r-project.org/src/contrib/NLP_0.1-11.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/NLP_0.1-11.tar.gz
 Summary  : Natural Language Processing Infrastructure
