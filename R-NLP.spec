@@ -4,7 +4,7 @@
 #
 Name     : R-NLP
 Version  : 0.2.0
-Release  : 16
+Release  : 17
 URL      : https://cran.r-project.org/src/contrib/NLP_0.2-0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/NLP_0.2-0.tar.gz
 Summary  : Natural Language Processing Infrastructure
@@ -23,10 +23,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552779470
+export SOURCE_DATE_EPOCH=1552932772
 
 %install
-export SOURCE_DATE_EPOCH=1552779470
+export SOURCE_DATE_EPOCH=1552932772
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
