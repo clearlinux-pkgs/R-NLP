@@ -4,7 +4,7 @@
 #
 Name     : R-NLP
 Version  : 0.2.0
-Release  : 24
+Release  : 25
 URL      : https://cran.r-project.org/src/contrib/NLP_0.2-0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/NLP_0.2-0.tar.gz
 Summary  : Natural Language Processing Infrastructure
