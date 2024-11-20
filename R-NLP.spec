@@ -6,10 +6,10 @@
 # autospec commit: 5424026
 #
 Name     : R-NLP
-Version  : 0.3.1
-Release  : 51
-URL      : https://ftp.osuosl.org/pub/cran/src/contrib/NLP_0.3-1.tar.gz
-Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/NLP_0.3-1.tar.gz
+Version  : 0.3.2
+Release  : 52
+URL      : https://ftp.osuosl.org/pub/cran/src/contrib/NLP_0.3-2.tar.gz
+Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/NLP_0.3-2.tar.gz
 Summary  : Natural Language Processing Infrastructure
 Group    : Development/Tools
 License  : GPL-3.0
@@ -35,10 +35,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1731646758
+export SOURCE_DATE_EPOCH=1732114123
 
 %install
-export SOURCE_DATE_EPOCH=1731646758
+export SOURCE_DATE_EPOCH=1732114123
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
